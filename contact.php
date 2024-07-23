@@ -1,0 +1,1 @@
+<?= require ("views/contact.view.php");?>
