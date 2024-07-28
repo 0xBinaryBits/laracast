@@ -13,7 +13,7 @@ require "Database.php";
 
 $config=require "config.php";
 $id =$_GET["id"];
-//dd($id);
+
 
 $db = new Database($config["database"],"noot");
 $post= $db->query("select * from posts where id =:id",[":id"=>$id])->fetchAll();
