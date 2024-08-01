@@ -3,7 +3,9 @@ $path = parse_url($_SERVER["REQUEST_URI"])["path"];
 $routes = [
     "/"=> "controllers/index.php",
     "/contact"=>"controllers/contact.php",
-    "/about" =>"controllers/about.php"
+    "/about" =>"controllers/about.php",
+    "/notes" => "controllers/notes.php",
+    "/note" => "controllers/note.php"
 ];
 function abort($code= 404){
     http_response_code($code );
