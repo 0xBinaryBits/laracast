@@ -10,7 +10,7 @@
         <!-- Your content -->Welcome To Notes Page
         <?php foreach ($posts as $post ):?>
             <li>
-                <a class="text-blue-700 hover:underline" href="/note?<?= $post["id"]?>">
+                <a class="text-blue-700 hover:underline" href="/note?id=<?= $post["id"]?>">
                     <?= $post["title"]?>
                 </a>
             </li>
