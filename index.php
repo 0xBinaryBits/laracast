@@ -15,5 +15,8 @@ require "router.php";
 
 
 
+$config=require "config.php";
+$id =$_GET["id"];
+
 
 
